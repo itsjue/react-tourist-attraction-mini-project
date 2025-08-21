@@ -1,14 +1,12 @@
 import React from "react";
+import Main from "./Main";
 
 function HomePage() {
   return (
     <>
       <div>
-        <h1 className="text-center">เที่ยวไหนดี</h1>
-        <div>
-          <h3>ค้นหาที่เที่ยว</h3>
-          <input type="text" placeholder="หาที่เที่ยวแล้วไปกัน..." className="placeholder-gray-500" />
-        </div>
+        <h1 className="text-center text-6xl text-blue-400">เที่ยวไหนดี</h1>
+        <Main />
       </div>
     </>
   );
